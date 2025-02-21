@@ -1,0 +1,19 @@
+{
+    "name": "amblydia/easyui",
+    "version": "1.0.3",
+    "description": "A Form Virion",
+    "type": "library",
+    "license": "GPL-3.0",
+    "require": {
+        "pocketmine/pocketmine-mp": "^5.0.0"
+    },
+    "autoload": {
+        "classmap": ["src"]
+    },
+    "extra": {
+        "virion": {
+            "spec": "3.0",
+            "namespace-root": "EasyUI"
+        }
+    }
+}
