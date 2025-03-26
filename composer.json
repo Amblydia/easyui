@@ -13,7 +13,7 @@
     "extra": {
         "virion": {
             "spec": "3.0",
-            "namespace-root": "EasyUI"
+            "namespace-root": "dresnite\\EasyUI"
         }
     }
 }
