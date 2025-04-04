@@ -1,10 +1,10 @@
 <?php
 /**
  * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Lesser General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- */
+* it under the terms of the GNU Lesser General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+*/
 
 declare(strict_types=1);
 
@@ -12,7 +12,7 @@ declare(strict_types=1);
 namespace dresnite\EasyUI\element;
 
 
-class Label extends Element {
+class Header extends Element {
 
     public function __construct(string $headerText) {
         parent::__construct($headerText);
@@ -20,10 +20,10 @@ class Label extends Element {
 
     public function isReadOnly(): bool {
         return true;
-    }    
-    
+    }
+
     public function getType(): string {
-        return Element::TYPE_LABEL;
+        return Element::TYPE_HEADER;
     }
 
     public function assignResult($result): void {
